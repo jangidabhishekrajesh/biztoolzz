@@ -1,0 +1,207 @@
+*{
+  font-family: poppins;
+}
+
+/* Navbar */
+
+.navbar-toggler-icon{
+  border: 2px solid #56fee0;
+  border-radius: 8px;
+}
+.collapse ul li a{
+  color: black;
+  border-bottom: 2px solid #eefffc;
+}
+.collapse ul li a:hover{
+  color:black;
+  border-bottom: 2px solid #56fee0;
+}
+.position-sticky{
+  background-image: linear-gradient(to right,white, #eefffc);
+  top: 0;
+  position: sticky;
+  z-index: 99;
+}
+.clickToLogin{
+  color: white;
+  padding: 5px 20px;
+  border: 2px solid black;
+  background: black;
+}
+.clickToLogin:hover{
+  border: 2px solid #56fee0;
+  background: #56fee0; 
+  animation: glitchy 0.3s ease 0.3s infinite;
+  color: black;
+}
+
+
+
+/* Slider */
+.sliderOne{
+  background-image: url(https://images.unsplash.com/photo-1622788298315-87b611f63fc5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80);
+  height: 480px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.sliderOne h1, .sliderTwo h1, .sliderThree h1, .sliderFour h1{
+  font-size: 42px;
+  letter-spacing: .06em;
+  margin-bottom: 32px;
+  text-transform: uppercase;
+  font-weight: 1000;
+}
+@media(max-width:500px){
+  .sliderOne h1, .sliderTwo h1, .sliderThree h1, .sliderFour h1{
+    font-size: unset;
+    letter-spacing: unset;
+  }
+}
+
+.sliderOne p{
+  font-size: 17px;
+  font-weight: 500;
+}
+.sliderTwo{
+  background-image: url(https://images.unsplash.com/photo-1485211177140-aa3b17a0c7b6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=801&q=80);
+  height: 480px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.sliderThree{
+  background-image: url(https://images.unsplash.com/photo-1620705914357-a9d11009e068?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+  height: 480px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.sliderFour{
+  background-image: url(https://images.unsplash.com/photo-1495420378468-78588a508652?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80);
+  height: 480px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+/* About */
+.aboutUsParagraph{
+  font-size: 22px;
+}
+
+/* Automate */
+.colorContent{
+  background: #56fee0;
+  height: 400px;
+  padding: 4em;
+}
+.btnAutomate{
+  background: black;
+  color: white;
+  border-radius: 0px;
+  font-size: 1em;
+  padding: 8px 40px;
+  font-weight: 400;
+}
+.btnAutomate:hover{
+  color: #56fee0;
+  background: black;
+}
+.contentAutomate{
+  font-size: 1.4em;
+  font-weight: 300;
+  line-height: 1.9;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+.contentAutomate p{
+  font-weight: 400;
+}
+.contentAutomate h4{
+  font-weight: 600;
+}
+@media (max-width:500px){
+  .contentAutomate{
+    line-height: unset;
+    font-weight: unset;
+    font-size: 1em;
+  }
+  .colorContent{
+    height: 400px;
+    padding: 2em;
+  }
+  .contentAutomate h4 p{
+    font-weight: unset;
+  }
+}
+
+/* Card */
+.cardContent{
+  font-weight: 700;
+  font-size: 4em;
+}
+.cardLine{
+  width: 8%;
+  background: #56fee0;
+  color: #56fee0;
+  box-sizing: border-box;
+  border: 8px solid #56fee0;
+}
+@media (max-width:500px) {
+  .cardContent{
+    font-family: 400;
+    font-size: 1.5em;
+  }
+}
+
+/* iconCard */
+
+.iconCardH6{
+  font-weight: 1000;
+  letter-spacing: 2px;
+}
+
+/* footer */
+footer{
+  background-image: linear-gradient(to right,white, #eefffc);
+}
+
+/* login */
+
+#loginSection{
+  background-image: linear-gradient(to right,white, #eefffc);
+  height: 560px;
+}
+#signupSection{
+  background-image: linear-gradient(to right,white, #eefffc);
+  height: 700px;
+}
+#ForgotSection{
+  background-image: linear-gradient(to right,white, #eefffc);
+  height: 420px;
+}
+.h1Color{
+  color: #56fee0;
+  background: black;
+  height: 80px;
+  padding: 25px;
+}
+#linkHover{
+  color: #56fee0;
+}
+#linkHover:hover{
+  color: black;
+}
+.form-control{
+  border: 2px solid #56fee0;
+}
+.form-control:hover{
+  border: 2px solid black;
+}
+#rounded{
+  border-radius: 18px;
+}
+#inputGrp{
+  background: #56fee0;
+  border: 2px solid #56fee0;
+}
