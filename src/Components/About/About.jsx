@@ -18,13 +18,10 @@ let About = () => {
                         <p style={{lineHeight:"2", fontWeight:"400"}}>Biztoolzz is a brand that aims to push other brands to compete effectively over a wide market. Our team is highly dedicated in seeing the vision for your next business venture. With advice of over top Industrial Specialists and Software Experts we bring you the effective tools for your next digital transformation. Our goal is to make India a digital hub where basic services are available to the public at little or no cost!</p>
                     </div>
                 </Fade>
-                <div className="col-md-1 col-auto">
-                    
-                </div>
                 <Fade right cascade>
-                    <div className="col-md-5 col-auto">
-                        <div className="shadow p-5">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzFzsB--pJrYM1m9QqYmhHqv9OI1THojqE3gXJnSRSip9gz5xpFQOW0kvRbhmoaWFUxEo&usqp=CAU" style={{width:"100%"}} alt="" />
+                    <div className="col-md-6 col-auto mt-5">
+                        <div className="shadow" id="rounded">
+                            <img id="rounded" src="https://images.unsplash.com/photo-1562504208-03d85cc8c23e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" height="380" style={{width:"100%"}} alt="" />
                         </div>
                     </div>
                 </Fade>
