@@ -5,7 +5,7 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import {Fade} from "react-reveal";
+
 
 
 import Footer from './Components/Footer/Footer';
