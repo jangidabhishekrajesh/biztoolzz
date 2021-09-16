@@ -180,21 +180,21 @@ footer{
 
 #loginSection{
   background-image: linear-gradient(to right,white, #eefffc);
-  height: 560px;
+  height: 660px;
 }
 #signupSection{
   background-image: linear-gradient(to right,white, #eefffc);
-  height: 700px;
+  height: 800px;
 }
 #ForgotSection{
   background-image: linear-gradient(to right,white, #eefffc);
-  height: 420px;
+  height: 520px;
 }
 .h1Color{
   color: #56fee0;
   background: black;
-  height: 80px;
-  padding: 25px;
+  height: 150px;
+  padding: 60px;
 }
 #linkHover{
   color: #56fee0;

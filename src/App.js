@@ -20,10 +20,8 @@ function App() {
     <>
     <Router>
       <Navbar/>
-      <Fade>
-        <Hero/>
-      </Fade>
         <Switch>
+          <Route exact path="/"><Hero/></Route>
           <Route exact path="/login"><Login/></Route>
           <Route exact path="/signup"><SignUp/></Route>
           <Route exact path="/forgot"><Forgot/></Route>
