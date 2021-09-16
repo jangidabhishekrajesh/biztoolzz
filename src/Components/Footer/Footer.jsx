@@ -9,7 +9,7 @@ let Footer = () => {
             <small><span>Phone: +91 7975460697</span></small> <br />
             <small><span>Email: reachwebxinfinity@gmail.com</span></small> <br />
             <small><span>Address: 756 Livingston Street, Bangalore</span></small> <br />
-            <small><span style={{color:"#56fee0"}}> <b> WEB BUILDER - E-COMMERCE - BIZZLINC/TREE - PROJECT MANAGEMENT - QR CODE BUILDER - CRM - TAX & ACCOUNTING - RESUME BUILDER - HR MANAGEMENT - MARKETING TOOL </b></span></small>
+            <small><span style={{color:"#27e080"}}> <b> WEB BUILDER - E-COMMERCE - BIZZLINC/TREE - PROJECT MANAGEMENT - QR CODE BUILDER - CRM - TAX & ACCOUNTING - RESUME BUILDER - HR MANAGEMENT - MARKETING TOOL </b></span></small>
         </footer>
         </>
     );

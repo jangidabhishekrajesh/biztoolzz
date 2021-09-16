@@ -40,7 +40,7 @@
 }
 .clickToLogin:hover{
   border: 2px solid #56fee0;
-  background: #56fee0; 
+  background-image: linear-gradient(to right,white, #a4ffee); 
   animation: glitchy 0.3s ease 0.3s infinite;
   color: black;
 }
@@ -102,7 +102,7 @@
 
 /* Automate */
 .colorContent{
-  background: #56fee0;
+  background-image: linear-gradient(to right,white, #a4ffee);
   height: 400px;
   padding: 4em;
 }
@@ -152,7 +152,7 @@
 }
 .cardLine{
   width: 8%;
-  background: #56fee0;
+  background-image: linear-gradient(to right,white, #a4ffee);
   color: #56fee0;
   box-sizing: border-box;
   border: 8px solid #56fee0;
@@ -217,6 +217,25 @@ footer{
   border-radius: 18px;
 }
 #inputGrp{
-  background: #56fee0;
+  background-image: linear-gradient(to right,white, #a4ffee);
   border: 2px solid #56fee0;
+}
+
+/* ProductLink here */
+.productLink{
+  text-decoration: none;
+  color: black;
+}
+.productLink h6:hover{
+  color: black;
+  border-bottom:2px solid #56fee0;
+  border-width: 18px;
+  border-radius: 12px;
+}
+.productLink h6{
+  font-size: 16px;
+  font-weight: 700;
+  border-bottom: 2px solid #a4ffee;
+  border-width: 18px;
+  border-radius: 12px;
 }
