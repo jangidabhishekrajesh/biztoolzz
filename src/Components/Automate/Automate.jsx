@@ -22,7 +22,7 @@ let Automate = () => {
                     </p>
                     </Zoom>
                     <Bounce down cascade>
-                    <center className="my-5"><button className="btn btnAutomate">GET STARTED</button></center>
+                    <center className="my-5"><a href="/"><button className="btn btnAutomate">GET STARTED</button></a></center>
                     </Bounce>
                 </div>
             </div>

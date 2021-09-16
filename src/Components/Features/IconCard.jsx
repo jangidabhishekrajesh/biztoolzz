@@ -22,7 +22,7 @@ let IconCard = () => {
                             <img src={f} alt="" />
                         </div>
                         <div className="col-md-10 col-auto">
-                            <h5 className="iconCardH6">COST EFFECTIVE</h5>
+                            <h5 className="iconCardH6">COST EFFECTIVE BIZTOOLZZ</h5>
                             <p className="mt-4">Build beautiful websites</p>
                         </div>
                     </div>
@@ -33,7 +33,7 @@ let IconCard = () => {
                             <img src={e} alt="" />
                         </div>
                         <div className="col-md-10 col-auto">
-                            <h5 className="iconCardH6">FAST AND EFFICIENT</h5>
+                            <h5 className="iconCardH6">FAST, SMOOTH AND EFFICIENT</h5>
                             <p className="mt-4">Sell products online</p>
                         </div>
                     </div>
