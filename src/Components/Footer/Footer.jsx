@@ -4,7 +4,7 @@ import logo from '../Asset/logo.png';
 let Footer = () => {
     return(
         <>
-        <footer className="container-fluid p-5">
+        <footer className="container-fluid p-5" id="contact">
             <Link className="navbar-brand" to="/"><img src={logo} alt="logo" width='14%'/></Link> <br />
             <small><span>Phone: +91 7975460697</span></small> <br />
             <small><span>Email: reachwebxinfinity@gmail.com</span></small> <br />

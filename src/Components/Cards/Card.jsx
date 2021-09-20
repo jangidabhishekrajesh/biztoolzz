@@ -5,7 +5,7 @@ let Card = () => {
     return(
         <>
         <Fade top cascade>
-            <div className="container my-5">
+            <div className="container my-5" id="product">
                 <h1 className="text-center cardContent">
                     PRODUCTS WE OFFER FOR FREE
                 </h1>

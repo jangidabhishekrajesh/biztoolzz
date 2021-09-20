@@ -5,7 +5,7 @@ import {Roll} from "react-reveal";
 let Slider = () => {
     return(
         <>
-            <div className="mb-5">
+            <div className="mb-5" id="home">
                 <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active">

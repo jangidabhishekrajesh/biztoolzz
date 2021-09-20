@@ -20,6 +20,7 @@
   .collapse ul li a{
     border-bottom: unset;
     color: black;
+    margin-bottom: 12px;
   }
   .collapse ul li a:hover{
     color: black;
