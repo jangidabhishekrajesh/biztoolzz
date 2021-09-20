@@ -27,7 +27,7 @@ let Product = () => {
                     <div className="col-md-6 col-auto p-5 my-1">
                         <h4 className="text-center mb-2">E-COMMERCE</h4>
                         <a href="/login"><img src={ecom} style={{width:"100%"}} height="260" alt="" /></a>
-                        <h6 className="text-center mt-2">SELL PRODUCTS ONLINE</h6>
+                        <a className="productLink" href="/" target="_blank" rel="noreferrer"><h6 className="text-center mt-2">SELL PRODUCTS ONLINE</h6></a>
                     </div>
                 </Fade>
                 <Fade left cascade>
@@ -41,7 +41,7 @@ let Product = () => {
                     <div className="col-md-6 col-auto p-5 my-1">
                         <h4 className="text-center mb-2">PROJECT MANAGEMENT</h4>
                         <a href="/login"><img src={project} style={{width:"100%"}} height="260" alt="" /></a>
-                       <a className="productLink" href="https://pm.biztoolzz.com/public/" target="_blank" rel="noreferrer"><h6 className="text-center mt-2">KEEP TRACK OF YOUR PROJECTS</h6></a>
+                        <a className="productLink" href="https://pm.biztoolzz.com/public/" target="_blank" rel="noreferrer"><h6 className="text-center mt-2">KEEP TRACK OF YOUR PROJECTS</h6></a>
                     </div>
                 </Fade>
                 <Fade left cascade>
@@ -55,14 +55,14 @@ let Product = () => {
                     <div className="col-md-6 col-auto p-5 my-1">
                         <h4 className="text-center mb-2">CRM</h4>
                         <a href="/login"><img src={crm} style={{width:"100%"}} height="260" alt="" /></a>
-                        <h6 className="text-center mt-2">MANAGE YOUR CUSTOMERS END TO END</h6>
+                        <a className="productLink" href="/" target="_blank" rel="noreferrer"><h6 className="text-center mt-2">MANAGE YOUR CUSTOMERS END TO END</h6></a>
                     </div>
                 </Fade>
                 <Fade left cascade>
                     <div className="col-md-6 col-auto p-5 my-1">
                         <h4 className="text-center mb-2">TAX & ACCOUNTING</h4>
                         <a href="/login"><img src={tax} style={{width:"100%"}} height="260" alt="" /></a>
-                        <h6 className="text-center mt-2">CREATE, SEND AND EDIT ESTIMATES INVOICE ITEMS AND MORE</h6>
+                        <a className="productLink" target="_blank" rel="noreferrer" href="/"><h6 className="text-center mt-2">CREATE, SEND AND EDIT ESTIMATES INVOICE ITEMS</h6></a>
                     </div>
                 </Fade>
                 <Fade right cascade>
