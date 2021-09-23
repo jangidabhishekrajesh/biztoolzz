@@ -20,7 +20,7 @@ let Navbar = () => {
                 <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul className="navbar-nav" style={{justifyContent: 'space-around'}}>
                         <li className="nav-item">
-                            <Link activeClass="active" className="nav-link mx-3" to="home" spy={true} smooth={true} offset={-100} duration={500}><b>HOME</b></Link>
+                            <a className="nav-link mx-3" href="https://biztoolzz.com/" ><b>HOME</b></a>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link mx-3" to="product" spy={true} smooth={true} offset={-100} duration={1000}><b>PRODUCTS</b></Link>
