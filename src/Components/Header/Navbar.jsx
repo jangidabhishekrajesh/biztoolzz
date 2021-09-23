@@ -1,5 +1,6 @@
 import logo from '../Asset/logo.png';
-import { Link } from "react-scroll";
+import { Link} from "react-scroll";
+
 
 let Navbar = () => {
 
@@ -19,15 +20,15 @@ let Navbar = () => {
                 <div className="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
                     <ul className="navbar-nav" style={{justifyContent: 'space-around'}}>
                         <li className="nav-item">
-                            <Link activeClass="active" className="nav-link mx-3" to="home" spy={true} smooth={true}><b>HOME</b></Link>
+                            <Link activeClass="active" className="nav-link mx-3" to="home" spy={true} smooth={true} offset={-100} duration={500}><b>HOME</b></Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link mx-3" to="product" spy={true} smooth={true}><b>PRODUCTS</b></Link>
+                            <Link className="nav-link mx-3" to="product" spy={true} smooth={true} offset={-100} duration={1000}><b>PRODUCTS</b></Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link mx-3" to="contact" spy={true} smooth={true}><b>CONTACT US</b></Link>
+                            <Link className="nav-link mx-3" to="contact" spy={true} smooth={true} offset={-100} duration={1500}><b>CONTACT US</b></Link>
                         </li>
-                        <a href="/login"><button className="clickToLogin">CLICK TO LOGIN</button></a>
+                        <a href="login"><button className="clickToLogin">CLICK TO LOGIN</button></a>
                     </ul>
                 </div>
             </div>

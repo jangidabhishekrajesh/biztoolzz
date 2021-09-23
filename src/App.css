@@ -16,6 +16,10 @@
   color:black;
   border-bottom: 2px solid #56fee0;
 }
+.collapse ul li a:focus{
+  color: black;
+  border-bottom: 2px solid blueviolet;
+}
 @media (max-width:500px){
   .collapse ul li a{
     border-bottom: unset;

@@ -67,7 +67,6 @@ let Login = () =>{
                                         <button type="submit" className="clickToLogin my-3">Log In</button>
                                     </center>
                                     <center>
-                                        <Link to="/forgot" style={{textDecoration:"none"}} id="linkHover"> Forgot <b>Password?</b></Link> &nbsp;&nbsp;
                                         <Link to="/signup"style={{textDecoration:"none"}} id="linkHover">Don't have an account, <b>Sign Up?</b></Link>
                                     </center>
                                 </form>
