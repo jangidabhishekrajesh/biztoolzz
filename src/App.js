@@ -13,7 +13,6 @@ import Navbar from './Components/Header/Navbar';
 import Hero from './Components/Home/Hero';
 import Login from './Container/Login';
 import SignUp from './Container/SignUp';
-import Forgot from './Container/Forgot';
 
 function App() {
   return (
@@ -24,7 +23,6 @@ function App() {
           <Route exact path="/"><Hero/></Route>
           <Route exact path="/login"><Login/></Route>
           <Route exact path="/signup"><SignUp/></Route>
-          <Route exact path="/forgot"><Forgot/></Route>
         </Switch>
       <Footer/>
     </Router>
